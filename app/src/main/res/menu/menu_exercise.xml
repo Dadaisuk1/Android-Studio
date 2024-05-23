@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/mChangeItem"
+        android:title="Change" >
+        <menu >
+            <item
+                android:id="@+id/mWord"
+                android:title="Magic Word" />
+            <item
+                android:id="@+id/mTxtColor"
+                android:title="Text Color" />
+            <item
+                android:id="@+id/mBGColor"
+                android:title="Background Color" />
+            <item
+                android:id="@+id/mSize"
+                android:title="Size" />
+            <item
+                android:id="@+id/mInvisible"
+                android:title="Magic" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/mReset"
+        android:title="Reset" />
+
+    <item
+        android:id="@+id/mExit"
+        android:title="Exit" />
+
+</menu>
